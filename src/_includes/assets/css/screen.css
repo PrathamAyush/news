@@ -53,14 +53,14 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-wrapper {
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   min-height: 100vh;
 }
 
 .site-main {
   z-index: 100;
-  flex-grow: 1;
+  flex-grow: 1.5;
   margin-top: calc(var(--header-height) * 3 + 5px);
 }
 
